@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Microsoft.VisualStudio.LanguageServices.CSharp {
+namespace Microsoft.VisualStudio.LanguageServices.USharp {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace Microsoft.VisualStudio.LanguageServices.CSharp {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class CSharpVSResources {
+    internal class USharpVSResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal CSharpVSResources() {
+        internal USharpVSResources() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Microsoft.VisualStudio.LanguageServices.CSharp {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources", typeof(CSharpVSResources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Microsoft.VisualStudio.LanguageServices.USharp.USharpVSResources", typeof(USharpVSResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

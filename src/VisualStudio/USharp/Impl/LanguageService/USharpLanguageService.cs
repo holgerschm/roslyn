@@ -15,6 +15,7 @@ using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.TextManager.Interop;
 using Microsoft.VisualStudio.LanguageServices.Implementation.ProjectSystem;
+using Microsoft.VisualStudio.LanguageServices.CSharp.LanguageService;
 
 namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
 {
@@ -47,7 +48,7 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
         {
             get
             {
-                return Guids.CSharpLanguageServiceId;
+                return Guids.USharpLanguageServiceId;
             }
         }
 
@@ -55,7 +56,7 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
         {
             get
             {
-                return CSharpVSResources.CSharp;
+                return USharpVSResources.CSharp;
             }
         }
 

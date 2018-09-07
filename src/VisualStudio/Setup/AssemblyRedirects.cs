@@ -23,6 +23,7 @@ using Roslyn.VisualStudio.Setup;
 [assembly: ProvideRoslynBindingRedirection("Microsoft.VisualStudio.LanguageServices.Implementation.dll")]
 [assembly: ProvideRoslynBindingRedirection("Microsoft.VisualStudio.LanguageServices.VisualBasic.dll")]
 [assembly: ProvideRoslynBindingRedirection("Microsoft.VisualStudio.LanguageServices.CSharp.dll")]
+[assembly: ProvideRoslynBindingRedirection("Microsoft.VisualStudio.LanguageServices.USharp.dll")]
 [assembly: ProvideRoslynBindingRedirection("Microsoft.VisualStudio.LanguageServices.SolutionExplorer.dll")]
 [assembly: ProvideRoslynBindingRedirection("Microsoft.VisualStudio.LanguageServices.Xaml.dll")]
 [assembly: ProvideRoslynBindingRedirection("Microsoft.VisualStudio.LanguageServices.Razor.RemoteClient.dll")]

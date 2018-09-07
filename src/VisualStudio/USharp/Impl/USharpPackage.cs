@@ -17,6 +17,8 @@ using Microsoft.VisualStudio.LanguageServices.Utilities;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 using Task = System.Threading.Tasks.Task;
+using Options = Microsoft.VisualStudio.LanguageServices.CSharp.Options;
+using Microsoft.VisualStudio.LanguageServices.CSharp.LanguageService;
 
 // NOTE(DustinCa): The EditorFactory registration is in VisualStudioComponents\CSharpPackageRegistration.pkgdef.
 // The reason for this is because the ProvideEditorLogicalView does not allow a name value to specified in addition to
