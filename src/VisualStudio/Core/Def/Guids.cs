@@ -117,23 +117,23 @@ namespace Microsoft.VisualStudio.LanguageServices
 
         public const string USharpOptionPageFormattingIdString = "FFFFFFb4-f18f-4111-9f54-a0fb010d9194";
 
-        public const string USharpPackageIdString = "FFFFFFb4-f18f-4111-9f54-a0fb010d9194";
-        public const string USharpProjectIdString = "FFFFFFc0-301f-11d3-bf4b-00c04f79efbc";
-        public const string USharpLanguageServiceIdString = "FFFFFFb6-b865-4c5b-ad85-86356e9c88dc";
-        public const string USharpEditorFactoryIdString = "FFFFFFa8-0e4a-4fc6-886a-064283054674";
-        public const string USharpCodePageEditorFactoryIdString = "FFFFFF34-b90f-4d91-bdca-eb8c8cf3033a";
-        public const string USharpCommandSetIdString = "FFFFFFf7-61f6-4d90-be23-d057d2ea961b";
-        public const string USharpGroupIdString = "FFFFFF65-a63f-46ee-84f1-990b2cab23f9";
-        public const string USharpRefactorIconIdString = "FFFFFF8b-3c72-4720-9966-2083af84dd82";
-        public const string USharpGenerateIconIdString = "FFFFFF10-d9fd-4f2e-b9a1-acdc5d514437";
-        public const string USharpOrganizeIconIdString = "FFFFFFb2-b48b-449d-a4c0-335d6e864b82";
-        public const string USharpLibraryIdString = "FFFFFFD0-2288-45b9-AC3A-D56398F7781D";
-        public const string USharpReplPackageIdString = "FFFFFFee-c43b-4360-9ce4-6b993ca12897";
+        public const string USharpPackageIdString = "6d70c3d0-173e-4778-b1e7-53cd666f0575";
+        public const string USharpProjectIdString = "5c9e6209-76dd-4483-883d-7997cde06ac7";
+        public const string USharpLanguageServiceIdString = "f8612fa3-0fcb-4bdc-910c-17700b492c8f";
+        public const string USharpEditorFactoryIdString = "a1c55cfa-a638-4d52-83e8-bfe0f218000a";
+        public const string USharpCodePageEditorFactoryIdString = "9f40a9ce-ad64-4ac6-b159-9f6ba89e786f";
+        public const string USharpCommandSetIdString = "6b11d81a-71be-46b4-ac5e-853251f35b1d";
+        public const string USharpGroupIdString = "abacd2c0-6566-4d38-a2dd-ac7c451390a7";
+        public const string USharpRefactorIconIdString = "b547284d-b87f-4c59-851e-fbdbf5291350";
+        public const string USharpGenerateIconIdString = "3c75a85c-4e94-4957-99bb-707f53f8f5ae";
+        public const string USharpOrganizeIconIdString = "8ceeb327-918f-4707-a66e-41cf2fcf976e";
+        public const string USharpLibraryIdString = "6d589b12-4e7f-4add-b9c7-5d6b03f8b7a2";
+        public const string USharpReplPackageIdString = "3b6fb9cd-d978-4066-8ecb-06e627409849";
 
-        public const string USharpProjectRootIdString = "FFFFFF89-B36D-4a62-93F4-DC7A95999921";
+        public const string USharpProjectRootIdString = "3897ca7a-dbb6-40c4-8d73-be2e20a4ac81";
 
         // from debugger\idl\makeapi\guid.c  
-        public const string USharpDebuggerLanguageIdString = "FFFFFFf8-07c6-11d3-9053-00c04fa302a1";
+        public const string USharpDebuggerLanguageIdString = "7e333dc6-ff6d-4a55-8fd9-01f908718912";
 
         public static readonly Guid USharpPackageId = new Guid(USharpPackageIdString);
         public static readonly Guid USharpProjectId = new Guid(USharpProjectIdString);
@@ -149,14 +149,14 @@ namespace Microsoft.VisualStudio.LanguageServices
         public static readonly Guid USharpLibraryId = new Guid(USharpLibraryIdString);
 
         // option page guids from csharp\rad\pkg\guids.h
-        public const string USharpOptionPageAdvancedIdString = "FFFFFF77-B244-4A97-8E37-6FB7B27DE3AF";
-        public const string USharpOptionPageNamingStyleIdString = "FFFFFF9C-EF70-4AA0-BD4F-EB0C6A5908D7";
-        public const string USharpOptionPageIntelliSenseIdString = "FFFFFF29-7A36-4c5d-8E20-9290195DCF80";
-        public const string USharpOptionPageCodeStyleIdString = "FFFFFFA7-ACB9-40F5-A7B1-D2878C3C7D6F";
-        public const string USharpOptionPageFormattingGeneralIdString = "FFFFFFDD-55BA-401F-A364-7D3238412AE4";
-        public const string USharpOptionPageFormattingIndentationIdString = "FFFFFF17-6D2A-4114-A1F1-C923F001CBBB";
-        public const string USharpOptionPageFormattingNewLinesIdString = "FFFFFF62-68D1-41E4-9A35-B5E7F14D0481";
-        public const string USharpOptionPageFormattingSpacingIdString = "FFFFFF66-73DD-4612-8DE4-29031FF27052";
-        public const string USharpOptionPageFormattingWrappingIdString = "FFFFFF9C-B7DC-4CF3-B7B7-014B831FE76B";
+        public const string USharpOptionPageAdvancedIdString = "9494aead-c943-4762-8fed-1cbf69a6d24a";
+        public const string USharpOptionPageNamingStyleIdString = "0cd6096b-3de5-4bcb-bd4c-b76752f2d927";
+        public const string USharpOptionPageIntelliSenseIdString = "f821ef83-4d47-4f85-b70c-b175d492bf66";
+        public const string USharpOptionPageCodeStyleIdString = "cae25f5f-0e86-4626-a641-1df892522ea1F";
+        public const string USharpOptionPageFormattingGeneralIdString = "c03169db-5cb2-4596-9ef5-f7142f749f89";
+        public const string USharpOptionPageFormattingIndentationIdString = "a7f676bd-7ba9-450f-bb63-e57b9b53cd01";
+        public const string USharpOptionPageFormattingNewLinesIdString = "86ca193f-40b5-4a12-8d28-5cb690c9fb42";
+        public const string USharpOptionPageFormattingSpacingIdString = "4a5be643-bc3f-41b5-88a3-2dd06ccddee3";
+        public const string USharpOptionPageFormattingWrappingIdString = "1af0e9b2-c2b8-4c88-8c61-fdeb0ac72304";
     }
 }

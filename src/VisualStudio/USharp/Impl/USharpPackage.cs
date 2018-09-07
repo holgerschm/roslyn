@@ -56,7 +56,7 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
     [ProvideLanguageEditorOptionPage(typeof(Options.AdvancedOptionPage), "USharp", null, "Advanced", pageNameResourceId: "#102", keywordListResourceId: 306)]
     [ProvideLanguageEditorToolsOptionCategory("USharp", "Code Style", "#114")]
     [ProvideLanguageEditorOptionPage(typeof(Options.Formatting.CodeStylePage), "USharp", @"Code Style", "General", pageNameResourceId: "#108", keywordListResourceId: 313)]
-    [ProvideLanguageEditorToolsOptionCategory("CSharp", @"Code Style\Formatting", "#107")]
+    [ProvideLanguageEditorToolsOptionCategory("USharp", @"Code Style\Formatting", "#107")]
     [ProvideLanguageEditorOptionPage(typeof(Options.Formatting.FormattingOptionPage), "USharp", @"Code Style\Formatting", "General", pageNameResourceId: "#108", keywordListResourceId: 307)]
     [ProvideLanguageEditorOptionPage(typeof(Options.Formatting.FormattingIndentationOptionPage), "USharp", @"Code Style\Formatting", "Indentation", pageNameResourceId: "#109", keywordListResourceId: 308)]
     [ProvideLanguageEditorOptionPage(typeof(Options.Formatting.FormattingWrappingPage), "USharp", @"Code Style\Formatting", "Wrapping", pageNameResourceId: "#110", keywordListResourceId: 311)]
@@ -67,8 +67,8 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
 
     [ProvideAutomationProperties("TextEditor", "USharp", Guids.TextManagerPackageString, profileNodeLabelId: 101, profileNodeDescriptionId: 106, resourcePackageGuid: Guids.USharpPackageIdString)]
     [ProvideAutomationProperties("TextEditor", "USharp-Specific", packageGuid: Guids.USharpPackageIdString, profileNodeLabelId: 104, profileNodeDescriptionId: 105)]
-    [ProvideService(typeof(USharpLanguageService), ServiceName = "C# Language Service", IsAsyncQueryable = true)]
-    [ProvideService(typeof(ICSharpTempPECompilerService), ServiceName = "C# TempPE Compiler Service", IsAsyncQueryable = true)]
+    [ProvideService(typeof(USharpLanguageService), ServiceName = "U# Language Service", IsAsyncQueryable = true)]
+    [ProvideService(typeof(ICSharpTempPECompilerService), ServiceName = "U# TempPE Compiler Service", IsAsyncQueryable = true)]
     internal class USharpPackage : AbstractPackage<USharpPackage, USharpLanguageService>, IVsUserSettingsQuery
     {
         private ObjectBrowserLibraryManager _libraryManager;
