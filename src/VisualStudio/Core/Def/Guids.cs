@@ -112,5 +112,51 @@ namespace Microsoft.VisualStudio.LanguageServices
         // Interactive guids
         public const string InteractiveCommandSetIdString = "00B8868B-F9F5-4970-A048-410B05508506";
         public static readonly Guid InteractiveCommandSetId = new Guid(InteractiveCommandSetIdString);
+
+
+
+        public const string USharpOptionPageFormattingIdString = "FFFFFFb4-f18f-4111-9f54-a0fb010d9194";
+
+        public const string USharpPackageIdString = "FFFFFFb4-f18f-4111-9f54-a0fb010d9194";
+        public const string USharpProjectIdString = "FFFFFFc0-301f-11d3-bf4b-00c04f79efbc";
+        public const string USharpLanguageServiceIdString = "FFFFFFb6-b865-4c5b-ad85-86356e9c88dc";
+        public const string USharpEditorFactoryIdString = "FFFFFFa8-0e4a-4fc6-886a-064283054674";
+        public const string USharpCodePageEditorFactoryIdString = "FFFFFF34-b90f-4d91-bdca-eb8c8cf3033a";
+        public const string USharpCommandSetIdString = "FFFFFFf7-61f6-4d90-be23-d057d2ea961b";
+        public const string USharpGroupIdString = "FFFFFF65-a63f-46ee-84f1-990b2cab23f9";
+        public const string USharpRefactorIconIdString = "FFFFFF8b-3c72-4720-9966-2083af84dd82";
+        public const string USharpGenerateIconIdString = "FFFFFF10-d9fd-4f2e-b9a1-acdc5d514437";
+        public const string USharpOrganizeIconIdString = "FFFFFFb2-b48b-449d-a4c0-335d6e864b82";
+        public const string USharpLibraryIdString = "FFFFFFD0-2288-45b9-AC3A-D56398F7781D";
+        public const string USharpReplPackageIdString = "FFFFFFee-c43b-4360-9ce4-6b993ca12897";
+
+        public const string USharpProjectRootIdString = "FFFFFF89-B36D-4a62-93F4-DC7A95999921";
+
+        // from debugger\idl\makeapi\guid.c  
+        public const string USharpDebuggerLanguageIdString = "FFFFFFf8-07c6-11d3-9053-00c04fa302a1";
+
+        public static readonly Guid USharpPackageId = new Guid(USharpPackageIdString);
+        public static readonly Guid USharpProjectId = new Guid(USharpProjectIdString);
+        public static readonly Guid USharpLanguageServiceId = new Guid(USharpLanguageServiceIdString);
+        public static readonly Guid USharpEditorFactoryId = new Guid(USharpEditorFactoryIdString);
+        public static readonly Guid USharpCodePageEditorFactoryId = new Guid(USharpCodePageEditorFactoryIdString);
+        public static readonly Guid USharpCommandSetId = new Guid(USharpCommandSetIdString);     // guidUSharpCmdId
+        public static readonly Guid USharpGroupId = new Guid(USharpGroupIdString);               // guidUSharpGrpId
+        public static readonly Guid USharpRefactorIconId = new Guid(USharpRefactorIconIdString); // guidUSharpRefactorIcon
+        public static readonly Guid USharpGenerateIconId = new Guid(USharpGenerateIconIdString); // guidUSharpGenerateIcon
+        public static readonly Guid USharpOrganizeIconId = new Guid(USharpOrganizeIconIdString); // guidUSharpOrganizeIcon
+        public static readonly Guid USharpDebuggerLanguageId = new Guid(USharpDebuggerLanguageIdString);
+        public static readonly Guid USharpLibraryId = new Guid(USharpLibraryIdString);
+
+        // option page guids from csharp\rad\pkg\guids.h
+        public const string USharpOptionPageAdvancedIdString = "FFFFFF77-B244-4A97-8E37-6FB7B27DE3AF";
+        public const string USharpOptionPageNamingStyleIdString = "FFFFFF9C-EF70-4AA0-BD4F-EB0C6A5908D7";
+        public const string USharpOptionPageIntelliSenseIdString = "FFFFFF29-7A36-4c5d-8E20-9290195DCF80";
+        public const string USharpOptionPageCodeStyleIdString = "FFFFFFA7-ACB9-40F5-A7B1-D2878C3C7D6F";
+        public const string USharpOptionPageFormattingGeneralIdString = "FFFFFFDD-55BA-401F-A364-7D3238412AE4";
+        public const string USharpOptionPageFormattingIndentationIdString = "FFFFFF17-6D2A-4114-A1F1-C923F001CBBB";
+        public const string USharpOptionPageFormattingNewLinesIdString = "FFFFFF62-68D1-41E4-9A35-B5E7F14D0481";
+        public const string USharpOptionPageFormattingSpacingIdString = "FFFFFF66-73DD-4612-8DE4-29031FF27052";
+        public const string USharpOptionPageFormattingWrappingIdString = "FFFFFF9C-B7DC-4CF3-B7B7-014B831FE76B";
     }
 }
