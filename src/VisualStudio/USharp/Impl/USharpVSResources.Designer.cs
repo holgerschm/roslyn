@@ -79,7 +79,7 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Apply all C# formatting rules (indentation, wrapping, spacing).
+        ///   Looks up a localized string similar to Apply all U# formatting rules (indentation, wrapping, spacing).
         /// </summary>
         internal static string Apply_all_csharp_formatting_rules_indentation_wrapping_spacing {
             get {
@@ -138,15 +138,6 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp {
         internal static string Completion_Lists {
             get {
                 return ResourceManager.GetString("Completion_Lists", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to C#.
-        /// </summary>
-        internal static string CSharp {
-            get {
-                return ResourceManager.GetString("CSharp", resourceCulture);
             }
         }
         
@@ -1335,6 +1326,15 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp {
         internal static string Use_var_when_generating_locals {
             get {
                 return ResourceManager.GetString("Use_var_when_generating_locals", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to U#.
+        /// </summary>
+        internal static string USharp {
+            get {
+                return ResourceManager.GetString("USharp", resourceCulture);
             }
         }
         

@@ -56,7 +56,7 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
         {
             get
             {
-                return USharpVSResources.CSharp;
+                return USharpVSResources.USharp;
             }
         }
 

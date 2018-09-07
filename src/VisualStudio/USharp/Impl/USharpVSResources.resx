@@ -117,8 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CSharp" xml:space="preserve">
-    <value>C#</value>
+  <data name="USharp" xml:space="preserve">
+    <value>U#</value>
   </data>
   <data name="Surround_With" xml:space="preserve">
     <value>Surround With</value>
@@ -551,7 +551,7 @@
     <value>Format Document Settings (Experiment) </value>
   </data>
   <data name="Apply_all_csharp_formatting_rules_indentation_wrapping_spacing" xml:space="preserve">
-    <value>Apply all C# formatting rules (indentation, wrapping, spacing)</value>
+    <value>Apply all U# formatting rules (indentation, wrapping, spacing)</value>
   </data>
   <data name="In_relational_binary_operators" xml:space="preserve">
     <value>In relational operators:  &lt;   &gt;   &lt;=   &gt;=   is   as   ==   !=</value>

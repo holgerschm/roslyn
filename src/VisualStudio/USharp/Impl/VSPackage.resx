@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="101" xml:space="preserve">
-    <value>C#</value>
+    <value>U#</value>
     <comment>Used many places.</comment>
   </data>
   <data name="102" xml:space="preserve">
@@ -130,7 +130,7 @@
     <comment>"IntelliSense" node under Tools &gt; Options, Text Editor, C#.</comment>
   </data>
   <data name="104" xml:space="preserve">
-    <value>C# Editor</value>
+    <value>U# Editor</value>
     <comment>"C# Editor" node in profile Import/Export.</comment>
   </data>
   <data name="105" xml:space="preserve">
@@ -191,13 +191,13 @@
     <value>Spacing</value>
   </data>
   <data name="2358" xml:space="preserve">
-    <value>CSharp Editor</value>
+    <value>USharp Editor</value>
   </data>
   <data name="2359" xml:space="preserve">
-    <value>CSharp Editor with Encoding</value>
+    <value>USharp Editor with Encoding</value>
   </data>
   <data name="113" xml:space="preserve">
-    <value>Microsoft Visual C#</value>
+    <value>Microsoft Visual U#</value>
     <comment>Used for String in Tools &gt; Options, Text Editor, File Extensions</comment>
   </data>
   <data name="114" xml:space="preserve">
@@ -216,11 +216,11 @@
     <comment>C# Naming Style options page keywords</comment>
   </data>
   <data name="116" xml:space="preserve">
-    <value>C# Tools</value>
+    <value>U# Tools</value>
     <comment>Help &gt; About</comment>
   </data>
   <data name="117" xml:space="preserve">
-    <value>C# components used in the IDE. Depending on your project type and settings, a different version of the compiler may be used.</value>
+    <value>U# components used in the IDE. Depending on your project type and settings, a different version of the compiler may be used.</value>
     <comment>Help &gt; About</comment>
   </data>
 </root>
