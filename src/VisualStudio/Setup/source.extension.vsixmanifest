@@ -40,13 +40,16 @@
     <Asset Type="Microsoft.ServiceHub.Service" d:Source="File" Path="roslynRemoteSymbolSearchUpdateEngine64.servicehub.service.json" />
     <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="BasicVisualStudio" Path="|BasicVisualStudio|" />
     <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="CSharpVisualStudio" Path="|CSharpVisualStudio|" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="USharpVisualStudio" Path="|USharpVisualStudio|" />
     <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="SolutionExplorerShim" Path="|SolutionExplorerShim|" />
     <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="ServicesVisualStudioImpl" Path="|ServicesVisualStudioImpl|" />
     <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="ServicesVisualStudio" Path="|ServicesVisualStudio;PkgdefProjectOutputGroup|" />
     <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="BasicVisualStudio" Path="|BasicVisualStudio;PkgdefProjectOutputGroup|" />
     <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="CSharpVisualStudio" Path="|CSharpVisualStudio;PkgdefProjectOutputGroup|" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="USharpVisualStudio" Path="|USharpVisualStudio;PkgdefProjectOutputGroup|" />
     <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="BasicVisualStudio" Path="VisualBasicPackageRegistration.pkgdef" />
     <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="CSharpVisualStudio" Path="CSharpPackageRegistration.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="USharpVisualStudio" Path="USharpPackageRegistration.pkgdef" />
     <Asset Type="DebuggerEngineExtension" d:Source="Project" d:ProjectName="ServicesVisualStudio" Path="|ServicesVisualStudio;VsdConfigOutputGroup|" />
     <Asset Type="Microsoft.VisualStudio.Analyzer" Path="Microsoft.CodeAnalysis.CSharp.dll" />
     <Asset Type="Microsoft.VisualStudio.Analyzer" Path="Microsoft.CodeAnalysis.VisualBasic.dll" />
