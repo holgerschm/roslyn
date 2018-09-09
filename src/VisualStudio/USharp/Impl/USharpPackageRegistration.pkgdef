@@ -1,6 +1,6 @@
 ﻿[$RootKey$\Editors]
 
-[$RootKey$\Editors\{08467b34-b90f-4d91-bdca-eb8c8cf3033a}]
+[$RootKey$\Editors\{9f40a9ce-ad64-4ac6-b159-9f6ba89e786f}]
 "CommonPhysicalViewAttributes"=dword:00000003
 "DisplayName"="#2359"
 "EditorTrustLevel"=dword:00000002
@@ -9,16 +9,16 @@
 "Package"="{13C3BBB4-F18F-4111-9F54-A0FB010D9194}"
 @="Microsoft USharp Editor Factory with Encoding"
 
-[$RootKey$\Editors\{08467b34-b90f-4d91-bdca-eb8c8cf3033a}\Extensions]
+[$RootKey$\Editors\{9f40a9ce-ad64-4ac6-b159-9f6ba89e786f}\Extensions]
 "cs"=dword:00000027
 
-[$RootKey$\Editors\{08467b34-b90f-4d91-bdca-eb8c8cf3033a}\LogicalViews]
+[$RootKey$\Editors\{9f40a9ce-ad64-4ac6-b159-9f6ba89e786f}\LogicalViews]
 "{7651a700-06e5-11d1-8ebd-00a0c90f26ea}"=""
 "{7651a701-06e5-11d1-8ebd-00a0c90f26ea}"=""
 "{7651a702-06e5-11d1-8ebd-00a0c90f26ea}"="Form"
 "{7651a703-06e5-11d1-8ebd-00a0c90f26ea}"=""
 
-[$RootKey$\Editors\{08467b34-b90f-4d91-bdca-eb8c8cf3033a}\UntrustedLogicalViews]
+[$RootKey$\Editors\{9f40a9ce-ad64-4ac6-b159-9f6ba89e786f}\UntrustedLogicalViews]
 "{7651a702-06e5-11d1-8ebd-00a0c90f26ea}"="Form"
 
 [$RootKey$\Editors\{A6C744A8-0E4A-4FC6-886A-064283054674}]

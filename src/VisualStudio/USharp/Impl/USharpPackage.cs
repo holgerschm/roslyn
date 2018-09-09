@@ -178,15 +178,15 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
         {
             miscellaneousFilesWorkspace.RegisterLanguage(
                 Guids.USharpLanguageServiceId,
-                LanguageNames.CSharp,
-                ".csx");
+                LanguageNames.USharp,
+                ".usx");
         }
 
         protected override string RoslynLanguageName
         {
             get
             {
-                return LanguageNames.CSharp;
+                return LanguageNames.USharp;
             }
         }
     }
