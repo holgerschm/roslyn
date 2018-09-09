@@ -13,8 +13,8 @@
         <note />
       </trans-unit>
       <trans-unit id="Apply_all_csharp_formatting_rules_indentation_wrapping_spacing">
-        <source>Apply all C# formatting rules (indentation, wrapping, spacing)</source>
-        <target state="new">Apply all C# formatting rules (indentation, wrapping, spacing)</target>
+        <source>Apply all U# formatting rules (indentation, wrapping, spacing)</source>
+        <target state="new">Apply all U# formatting rules (indentation, wrapping, spacing)</target>
         <note />
       </trans-unit>
       <trans-unit id="Automatically_format_block_on_close_brace">
@@ -40,11 +40,6 @@
       <trans-unit id="Automatically_format_when_typing">
         <source>Automatically format when typing</source>
         <target state="new">Automatically format when typing</target>
-        <note />
-      </trans-unit>
-      <trans-unit id="CSharp">
-        <source>C#</source>
-        <target state="new">C#</target>
         <note />
       </trans-unit>
       <trans-unit id="Completion_Lists">
@@ -690,6 +685,11 @@
       <trans-unit id="Type_Inference_preferences_colon">
         <source>Type Inference preferences:</source>
         <target state="new">Type Inference preferences:</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="USharp">
+        <source>U#</source>
+        <target state="new">U#</target>
         <note />
       </trans-unit>
       <trans-unit id="Use_var_when_generating_locals">

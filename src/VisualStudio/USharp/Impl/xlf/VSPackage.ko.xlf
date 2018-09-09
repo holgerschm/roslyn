@@ -3,8 +3,8 @@
   <file datatype="xml" source-language="en" target-language="ko" original="../VSPackage.resx">
     <body>
       <trans-unit id="101">
-        <source>C#</source>
-        <target state="new">C#</target>
+        <source>U#</source>
+        <target state="new">U#</target>
         <note>Used many places.</note>
       </trans-unit>
       <trans-unit id="102">
@@ -18,8 +18,8 @@
         <note>"IntelliSense" node under Tools &gt; Options, Text Editor, C#.</note>
       </trans-unit>
       <trans-unit id="104">
-        <source>C# Editor</source>
-        <target state="new">C# Editor</target>
+        <source>U# Editor</source>
+        <target state="new">U# Editor</target>
         <note>"C# Editor" node in profile Import/Export.</note>
       </trans-unit>
       <trans-unit id="105">
@@ -63,8 +63,8 @@
         <note />
       </trans-unit>
       <trans-unit id="113">
-        <source>Microsoft Visual C#</source>
-        <target state="new">Microsoft Visual C#</target>
+        <source>Microsoft Visual U#</source>
+        <target state="new">Microsoft Visual U#</target>
         <note>Used for String in Tools &gt; Options, Text Editor, File Extensions</note>
       </trans-unit>
       <trans-unit id="114">
@@ -78,23 +78,23 @@
         <note />
       </trans-unit>
       <trans-unit id="116">
-        <source>C# Tools</source>
-        <target state="new">C# Tools</target>
+        <source>U# Tools</source>
+        <target state="new">U# Tools</target>
         <note>Help &gt; About</note>
       </trans-unit>
       <trans-unit id="117">
-        <source>C# components used in the IDE. Depending on your project type and settings, a different version of the compiler may be used.</source>
-        <target state="new">C# components used in the IDE. Depending on your project type and settings, a different version of the compiler may be used.</target>
+        <source>U# components used in the IDE. Depending on your project type and settings, a different version of the compiler may be used.</source>
+        <target state="new">U# components used in the IDE. Depending on your project type and settings, a different version of the compiler may be used.</target>
         <note>Help &gt; About</note>
       </trans-unit>
       <trans-unit id="2358">
-        <source>CSharp Editor</source>
-        <target state="new">CSharp Editor</target>
+        <source>USharp Editor</source>
+        <target state="new">USharp Editor</target>
         <note />
       </trans-unit>
       <trans-unit id="2359">
-        <source>CSharp Editor with Encoding</source>
-        <target state="new">CSharp Editor with Encoding</target>
+        <source>USharp Editor with Encoding</source>
+        <target state="new">USharp Editor with Encoding</target>
         <note />
       </trans-unit>
       <trans-unit id="306">
