@@ -5,6 +5,7 @@ namespace Microsoft.CodeAnalysis.Editor
     internal static class ContentTypeNames
     {
         public const string CSharpContentType = "CSharp";
+        public const string USharpContentType = "USharp";
         public const string CSharpSignatureHelpContentType = "CSharp Signature Help";
         public const string RoslynContentType = "Roslyn Languages";
         public const string VisualBasicContentType = "Basic";

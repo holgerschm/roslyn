@@ -21,13 +21,13 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
             var project = new CSharpProjectShim(
                 projectRoot,
                 projectTracker,
-                id => new ProjectExternalErrorReporter(id, "CS", this.SystemServiceProvider),
+                id => new ProjectExternalErrorReporter(id, "US", this.SystemServiceProvider),
                 projectName,
                 hierarchy,
                 this.SystemServiceProvider,
                 this.Workspace,
                 this.HostDiagnosticUpdateSource,
-                this.Workspace.Services.GetLanguageServices(LanguageNames.CSharp).GetService<ICommandLineParserService>());
+                this.Workspace.Services.GetLanguageServices(LanguageNames.USharp).GetService<ICommandLineParserService>());
 
             projectRoot.SetProjectSite(project);
         }

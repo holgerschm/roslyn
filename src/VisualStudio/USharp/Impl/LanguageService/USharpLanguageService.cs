@@ -32,7 +32,7 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
         {
             get
             {
-                return Guids.CSharpDebuggerLanguageId;
+                return Guids.USharpDebuggerLanguageId;
             }
         }
 
@@ -40,7 +40,7 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
         {
             get
             {
-                return ContentTypeNames.CSharpContentType;
+                return ContentTypeNames.USharpContentType;
             }
         }
 
@@ -64,7 +64,7 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
         {
             get
             {
-                return LanguageNames.CSharp;
+                return LanguageNames.USharp;
             }
         }
 
