@@ -6,7 +6,7 @@
 "EditorTrustLevel"=dword:00000002
 "ExcludeDefTextEditor"=dword:00000001
 "LinkedEditorGuid"="{a1c55cfa-a638-4d52-83e8-bfe0f218000a}"
-"Package"="{13C3BBB4-F18F-4111-9F54-A0FB010D9194}"
+"Package"="{6d70c3d0-173e-4778-b1e7-53cd666f0575}"
 @="Microsoft USharp Editor Factory with Encoding"
 
 [$RootKey$\Editors\{9f40a9ce-ad64-4ac6-b159-9f6ba89e786f}\Extensions]
@@ -26,7 +26,7 @@
 "DisplayName"="#2358"
 "EditorTrustLevel"=dword:00000002
 "ExcludeDefTextEditor"=dword:00000001
-"Package"="{13C3BBB4-F18F-4111-9F54-A0FB010D9194}"
+"Package"="{6d70c3d0-173e-4778-b1e7-53cd666f0575}"
 @="Microsoft USharp Editor Factory"
 
 [$RootKey$\Editors\{a1c55cfa-a638-4d52-83e8-bfe0f218000a}\Extensions]
@@ -47,8 +47,8 @@
 [$RootKey$\FileExtensionMapping\{201669EE-A2F4-4B72-82C6-028810C22A40}]
 "DisplayName"="#113"
 "EditorGUID"="{a1c55cfa-a638-4d52-83e8-bfe0f218000a}"
-"LogViewID"="{694DD9B6-B865-4C5B-AD85-86356E9C88DC}"
-"Package"="{13C3BBB4-F18F-4111-9F54-A0FB010D9194}"
+"LogViewID"="{f8612fa3-0fcb-4bdc-910c-17700b492c8f}"
+"Package"="{6d70c3d0-173e-4778-b1e7-53cd666f0575}"
 "SortPriority"=dword:00000064
 @="Microsoft Visual U#"
 

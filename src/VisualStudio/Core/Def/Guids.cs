@@ -115,7 +115,7 @@ namespace Microsoft.VisualStudio.LanguageServices
 
 
 
-        public const string USharpOptionPageFormattingIdString = "FFFFFFb4-f18f-4111-9f54-a0fb010d9194";
+        public const string USharpOptionPageFormattingIdString = "6d70c3d0-173e-4778-b1e7-53cd666f0575";
 
         public const string USharpPackageIdString = "6d70c3d0-173e-4778-b1e7-53cd666f0575";
         public const string USharpProjectIdString = "5c9e6209-76dd-4483-883d-7997cde06ac7";
