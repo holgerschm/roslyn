@@ -1,2 +1,3 @@
 ﻿Microsoft.CodeAnalysis.Editor.USharp.LanguageServices.USharpContentTypeLanguageService
 USharpEditorFactory
+Commands.vsct

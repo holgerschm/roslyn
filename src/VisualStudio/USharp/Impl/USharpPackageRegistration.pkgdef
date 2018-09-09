@@ -5,7 +5,7 @@
 "DisplayName"="#2359"
 "EditorTrustLevel"=dword:00000002
 "ExcludeDefTextEditor"=dword:00000001
-"LinkedEditorGuid"="{A6C744A8-0E4A-4FC6-886A-064283054674}"
+"LinkedEditorGuid"="{a1c55cfa-a638-4d52-83e8-bfe0f218000a}"
 "Package"="{13C3BBB4-F18F-4111-9F54-A0FB010D9194}"
 @="Microsoft USharp Editor Factory with Encoding"
 
@@ -21,7 +21,7 @@
 [$RootKey$\Editors\{9f40a9ce-ad64-4ac6-b159-9f6ba89e786f}\UntrustedLogicalViews]
 "{7651a702-06e5-11d1-8ebd-00a0c90f26ea}"="Form"
 
-[$RootKey$\Editors\{A6C744A8-0E4A-4FC6-886A-064283054674}]
+[$RootKey$\Editors\{a1c55cfa-a638-4d52-83e8-bfe0f218000a}]
 "CommonPhysicalViewAttributes"=dword:00000002
 "DisplayName"="#2358"
 "EditorTrustLevel"=dword:00000002
@@ -29,24 +29,24 @@
 "Package"="{13C3BBB4-F18F-4111-9F54-A0FB010D9194}"
 @="Microsoft USharp Editor Factory"
 
-[$RootKey$\Editors\{A6C744A8-0E4A-4FC6-886A-064283054674}\Extensions]
+[$RootKey$\Editors\{a1c55cfa-a638-4d52-83e8-bfe0f218000a}\Extensions]
 "cs"=dword:00000028
 
-[$RootKey$\Editors\{A6C744A8-0E4A-4FC6-886A-064283054674}\LogicalViews]
+[$RootKey$\Editors\{a1c55cfa-a638-4d52-83e8-bfe0f218000a}\LogicalViews]
 "{7651a700-06e5-11d1-8ebd-00a0c90f26ea}"=""
 "{7651a701-06e5-11d1-8ebd-00a0c90f26ea}"=""
 "{7651a702-06e5-11d1-8ebd-00a0c90f26ea}"="Form"
 "{7651a703-06e5-11d1-8ebd-00a0c90f26ea}"=""
 
-[$RootKey$\Editors\{A6C744A8-0E4A-4FC6-886A-064283054674}\PhysicalViewAttributes]
+[$RootKey$\Editors\{a1c55cfa-a638-4d52-83e8-bfe0f218000a}\PhysicalViewAttributes]
 "Form"=dword:00000003
 
-[$RootKey$\Editors\{A6C744A8-0E4A-4FC6-886A-064283054674}\UntrustedLogicalViews]
+[$RootKey$\Editors\{a1c55cfa-a638-4d52-83e8-bfe0f218000a}\UntrustedLogicalViews]
 "{7651a702-06e5-11d1-8ebd-00a0c90f26ea}"="Form"
 
 [$RootKey$\FileExtensionMapping\{201669EE-A2F4-4B72-82C6-028810C22A40}]
 "DisplayName"="#113"
-"EditorGUID"="{A6C744A8-0E4A-4FC6-886A-064283054674}"
+"EditorGUID"="{a1c55cfa-a638-4d52-83e8-bfe0f218000a}"
 "LogViewID"="{694DD9B6-B865-4C5B-AD85-86356E9C88DC}"
 "Package"="{13C3BBB4-F18F-4111-9F54-A0FB010D9194}"
 "SortPriority"=dword:00000064
