@@ -145,14 +145,14 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
         int IVsUserSettingsQuery.NeedExport(string pageID, out int needExport)
         {
             // We need to override MPF's definition of NeedExport since it doesn't know about our automation object
-            needExport = (pageID == "TextEditor.CSharp-Specific") ? 1 : 0;
+            needExport = (pageID == "TextEditor.USharp-Specific") ? 1 : 0;
 
             return VSConstants.S_OK;
         }
 
         protected override object GetAutomationObject(string name)
         {
-            if (name == "CSharp-Specific")
+            if (name == "USharp-Specific")
             {
                 var workspace = this.ComponentModel.GetService<VisualStudioWorkspace>();
                 return new Options.AutomationObject(workspace);
