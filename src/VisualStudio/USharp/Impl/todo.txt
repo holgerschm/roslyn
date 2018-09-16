@@ -1,3 +1,20 @@
 ﻿Microsoft.CodeAnalysis.Editor.USharp.LanguageServices.USharpContentTypeLanguageService
 USharpEditorFactory
 Commands.vsct
+
+What do this projects do:
+Microsoft.VisualStudio.LanguageServices(.Implementation)
+Commands.vsct: Reference language editor guids, tool windows, context menues
+
+Microsoft.VisualStudio.LanguageServices.SolutionExplorer
+
+Microsoft.CodeAnalysis.Workspaces
+Workspace ~ Solution
+
+Microsoft.CodeAnalysis.Workspaces.Desktop
+
+Microsoft.CodeAnalysis.EditorFeatures
+
+Microsoft.CodeAnalysis.Features
+
+

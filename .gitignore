@@ -184,3 +184,5 @@ $RECYCLE.BIN/
 
 # JetBrains Rider
 .idea/
+/.Output-Debug.txt.swp
+/Output-Debug.txt
