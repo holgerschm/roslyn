@@ -30,7 +30,7 @@
 @="Microsoft USharp Editor Factory"
 
 [$RootKey$\Editors\{a1c55cfa-a638-4d52-83e8-bfe0f218000a}\Extensions]
-"cs"=dword:00000028
+"us"=dword:00000028
 
 [$RootKey$\Editors\{a1c55cfa-a638-4d52-83e8-bfe0f218000a}\LogicalViews]
 "{7651a700-06e5-11d1-8ebd-00a0c90f26ea}"=""
