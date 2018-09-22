@@ -10,7 +10,7 @@
 @="Microsoft USharp Editor Factory with Encoding"
 
 [$RootKey$\Editors\{9f40a9ce-ad64-4ac6-b159-9f6ba89e786f}\Extensions]
-"cs"=dword:00000027
+"us"=dword:00000027
 
 [$RootKey$\Editors\{9f40a9ce-ad64-4ac6-b159-9f6ba89e786f}\LogicalViews]
 "{7651a700-06e5-11d1-8ebd-00a0c90f26ea}"=""

@@ -163,8 +163,8 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.LanguageService
 
         protected override IEnumerable<IVsEditorFactory> CreateEditorFactories()
         {
-            var editorFactory = new CSharpEditorFactory(this.ComponentModel);
-            var codePageEditorFactory = new CSharpCodePageEditorFactory(editorFactory);
+            var editorFactory = new USharpEditorFactory(this.ComponentModel);
+            var codePageEditorFactory = new USharpCodePageEditorFactory(editorFactory);
 
             return new IVsEditorFactory[] { editorFactory, codePageEditorFactory };
         }
