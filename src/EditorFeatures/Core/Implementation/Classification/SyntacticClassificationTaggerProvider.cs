@@ -15,6 +15,7 @@ namespace Microsoft.CodeAnalysis.Editor.Implementation.Classification
 {
     [Export(typeof(ITaggerProvider))]
     [ContentType(ContentTypeNames.RoslynContentType)]
+    [ContentType(ContentTypeNames.USharpContentType)]
     [TextViewRole(PredefinedTextViewRoles.Document)]
     [TagType(typeof(IClassificationTag))]
     internal partial class SyntacticClassificationTaggerProvider : ITaggerProvider
