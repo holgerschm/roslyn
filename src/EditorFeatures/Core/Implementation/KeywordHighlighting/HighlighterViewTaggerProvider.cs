@@ -22,6 +22,7 @@ namespace Microsoft.CodeAnalysis.Editor.Implementation.Highlighting
     [Export(typeof(IViewTaggerProvider))]
     [TagType(typeof(KeywordHighlightTag))]
     [ContentType(ContentTypeNames.CSharpContentType)]
+    [ContentType(ContentTypeNames.USharpContentType)]
     [ContentType(ContentTypeNames.VisualBasicContentType)]
     [TextViewRole(PredefinedTextViewRoles.Interactive)]
     internal class HighlighterViewTaggerProvider : AsynchronousViewTaggerProvider<KeywordHighlightTag>
