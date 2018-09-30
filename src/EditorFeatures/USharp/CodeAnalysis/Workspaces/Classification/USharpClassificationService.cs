@@ -16,6 +16,11 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.CodeAnalysis.Workspaces
     [ExportLanguageService(typeof(IClassificationService), LanguageNames.USharp), Shared]
     internal class USharpEditorClassificationService : AbstractClassificationService
     {
+        public USharpEditorClassificationService()
+        {
+            Console.WriteLine("Foo");
+        }
+
         public override void AddLexicalClassifications(SourceText text, TextSpan textSpan, List<ClassifiedSpan> result, CancellationToken cancellationToken)
         {
             var temp = ArrayBuilder<ClassifiedSpan>.GetInstance();
