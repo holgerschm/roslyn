@@ -13,8 +13,8 @@ using Microsoft.CodeAnalysis.Text;
 
 namespace Microsoft.VisualStudio.LanguageServices.USharp.CodeAnalysis.Workspaces.Classification
 {
-    [ExportLanguageService(typeof(IClassificationService), LanguageNames.CSharp), Shared]
-    internal class CSharpEditorClassificationService : AbstractClassificationService
+    [ExportLanguageService(typeof(IClassificationService), LanguageNames.USharp), Shared]
+    internal class USharpEditorClassificationService : AbstractClassificationService
     {
         public override void AddLexicalClassifications(SourceText text, TextSpan textSpan, List<ClassifiedSpan> result, CancellationToken cancellationToken)
         {
