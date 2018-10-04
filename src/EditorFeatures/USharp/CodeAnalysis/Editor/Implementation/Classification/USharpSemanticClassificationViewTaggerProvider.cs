@@ -29,7 +29,6 @@ namespace Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.Editor.Implementatio
     /// </summary>
     [Export(typeof(IViewTaggerProvider))]
     [TagType(typeof(IClassificationTag))]
-    [ContentType(ContentTypeNames.RoslynContentType)]
     [ContentType(ContentTypeNames.USharpContentType)]
     internal partial class USharpSemanticClassificationViewTaggerProvider : AsynchronousViewTaggerProvider<IClassificationTag>
     {
@@ -109,7 +108,7 @@ namespace Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.Editor.Implementatio
             // Attempt to get a classification service which will actually produce the results.
             // If we can't (because we have no Document, or because the language doesn't support
             // this service), then bail out immediately.
-            var classificationService = document?.GetLanguageService<TClassificationService>();
+            var classificationService = document?.Project?.Solution?.Workspace?.Services?.GetLanguageServices(LanguageNames.USharp).GetService<TClassificationService>();
             if (classificationService == null)
             {
                 return Task.CompletedTask;
