@@ -1,0 +1,23 @@
+﻿Asserts:
+assert keyword
+check keyword -> report (red) no break
+
+output:
+write/info/print
+formatting
+
+async:
+?
+
+SUT:
+assert of events
+
+Fakes:
+fake
+verify
+setup
+
+Fixture:
+fixture
+test
+theory
