@@ -16,7 +16,7 @@ namespace Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.Editor.LanguageServi
 
         public IContentType GetDefaultContentType()
         {
-            return _contentTypeRegistry.GetContentType(ContentTypeNames.CSharpContentType);
+            return _contentTypeRegistry.GetContentType(ContentTypeNames.USharpContentType);
         }
     }
 }
