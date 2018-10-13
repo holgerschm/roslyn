@@ -38,5 +38,6 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.CodeAnalysis.Workspaces
 
         public override ClassifiedSpan FixClassification(SourceText rawText, ClassifiedSpan classifiedSpan)
             => ClassificationHelpers.AdjustStaleClassification(rawText, classifiedSpan);
+
     }
 }

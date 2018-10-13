@@ -12,7 +12,7 @@ using Microsoft.CodeAnalysis.Text;
 using Roslyn.Utilities;
 using InternalSyntax = Microsoft.CodeAnalysis.CSharp.Syntax.InternalSyntax;
 
-namespace Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis
+namespace Microsoft.CodeAnalysis.USharp
 {
     /// <summary>
     /// The parsed representation of a C# source document.
@@ -361,10 +361,10 @@ namespace Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis
         /// </summary>
         public static SyntaxTree ParseText(
             string text,
-            CSharpParseOptions options = null,
-            string path = "",
-            Encoding encoding = null,
-            CancellationToken cancellationToken = default(CancellationToken))
+            CSharpParseOptions options,
+            string path,
+            Encoding encoding,
+            CancellationToken cancellationToken)
         {
             return ParseText(SourceText.From(text, encoding), options, path, cancellationToken);
         }
@@ -374,9 +374,9 @@ namespace Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis
         /// </summary>
         public static SyntaxTree ParseText(
             SourceText text,
-            CSharpParseOptions options = null,
-            string path = "",
-            CancellationToken cancellationToken = default(CancellationToken))
+            CSharpParseOptions options,
+            string path,
+            CancellationToken cancellationToken)
         {
             if (text == null)
             {
@@ -698,7 +698,7 @@ namespace Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis
         /// This method does not filter diagnostics based on <c>#pragma</c>s and compiler options
         /// like /nowarn, /warnaserror etc.
         /// </remarks>
-        public override IEnumerable<Diagnostic> GetDiagnostics(CancellationToken cancellationToken = default(CancellationToken))
+        public override IEnumerable<Diagnostic> GetDiagnostics(CancellationToken cancellationToken)
         {
             return this.GetDiagnostics(this.GetRoot(cancellationToken));
         }

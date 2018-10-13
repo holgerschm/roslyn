@@ -7,7 +7,7 @@ using Microsoft.CodeAnalysis.Text;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 
-namespace Microsoft.VisualStudio.LanguageServices.USharp.CodeAnalysis.Workspaces.Classification
+namespace Microsoft.CodeAnalysis.USharp.Classification
 {
     internal static class ClassificationHelpers
     {
@@ -340,7 +340,7 @@ namespace Microsoft.VisualStudio.LanguageServices.USharp.CodeAnalysis.Workspaces
             return false;
         }
 
-        internal static void AddLexicalClassifications(SourceText text, TextSpan textSpan, Microsoft.CodeAnalysis.PooledObjects.ArrayBuilder<ClassifiedSpan> result, CancellationToken cancellationToken)
+        internal static void AddLexicalClassifications(SourceText text, TextSpan textSpan, ArrayBuilder<ClassifiedSpan> result, CancellationToken cancellationToken)
         {
             var text2 = text.ToString(textSpan);
             var tokens = SyntaxFactory.ParseTokens(text2, initialTokenPosition: textSpan.Start);

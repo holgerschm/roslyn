@@ -393,6 +393,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualStudio.Lang
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.CodeAnalysis.USharp.EditorFeatures", "src\EditorFeatures\USharp\Microsoft.CodeAnalysis.USharp.EditorFeatures.csproj", "{64086F40-A2F4-4820-91B8-5DF5F8409B7A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.CodeAnalysis.USharp.Workspaces", "src\Workspaces\USharp\Portable\Microsoft.CodeAnalysis.USharp.Workspaces.csproj", "{0916395B-1F70-4749-B0E4-8397C4094BCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "USharp", "USharp", "{107DD05E-E327-46F2-A821-803EBC60ACFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.CodeAnalysis.USharp", "src\Compilers\USharp\Portable\Microsoft.CodeAnalysis.USharp.csproj", "{73FE2769-D6B6-43D4-BB89-ACF49FBE97D7}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\Compilers\VisualBasic\BasicAnalyzerDriver\BasicAnalyzerDriver.projitems*{2523d0e6-df32-4a3e-8ae0-a19bffae2ef6}*SharedItemsImports = 4
@@ -1050,6 +1056,14 @@ Global
 		{64086F40-A2F4-4820-91B8-5DF5F8409B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64086F40-A2F4-4820-91B8-5DF5F8409B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64086F40-A2F4-4820-91B8-5DF5F8409B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0916395B-1F70-4749-B0E4-8397C4094BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0916395B-1F70-4749-B0E4-8397C4094BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0916395B-1F70-4749-B0E4-8397C4094BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0916395B-1F70-4749-B0E4-8397C4094BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FE2769-D6B6-43D4-BB89-ACF49FBE97D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FE2769-D6B6-43D4-BB89-ACF49FBE97D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FE2769-D6B6-43D4-BB89-ACF49FBE97D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FE2769-D6B6-43D4-BB89-ACF49FBE97D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1237,6 +1251,9 @@ Global
 		{B9843F65-262E-4F40-A0BC-2CBEF7563A44} = {C52D8057-43AF-40E6-A01B-6CDBB7301985}
 		{A0877178-CD97-40DC-9528-B3B88B325807} = {8DBA5174-B0AA-4561-82B1-A46607697753}
 		{64086F40-A2F4-4820-91B8-5DF5F8409B7A} = {EE97CB90-33BB-4F3A-9B3D-69375DEC6AC6}
+		{0916395B-1F70-4749-B0E4-8397C4094BCA} = {55A62CFA-1155-46F1-ADF3-BEEE51B58AB5}
+		{107DD05E-E327-46F2-A821-803EBC60ACFC} = {3F40F71B-7DCF-44A1-B15C-38CA34824143}
+		{73FE2769-D6B6-43D4-BB89-ACF49FBE97D7} = {107DD05E-E327-46F2-A821-803EBC60ACFC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {604E6B91-7BC0-4126-AE07-D4D2FEFC3D29}

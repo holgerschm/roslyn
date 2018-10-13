@@ -5,7 +5,7 @@ using System.Threading;
 using Microsoft.CodeAnalysis.Text;
 using Microsoft.CodeAnalysis.CSharp;
 
-namespace Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis
+namespace Microsoft.CodeAnalysis.USharp
 {
     public partial class USharpSyntaxTree
     {
@@ -19,7 +19,7 @@ namespace Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis
             private readonly SourceHashAlgorithm _checksumAlgorithm;
             private SourceText _lazyText;
 
-            internal ParsedSyntaxTree(SourceText textOpt, Encoding encodingOpt, SourceHashAlgorithm checksumAlgorithm, string path, CSharpParseOptions options, CSharpSyntaxNode root, Syntax.InternalSyntax.DirectiveStack directives, bool cloneRoot = true)
+            internal ParsedSyntaxTree(SourceText textOpt, Encoding encodingOpt, SourceHashAlgorithm checksumAlgorithm, string path, CSharpParseOptions options, CSharpSyntaxNode root, Microsoft.CodeAnalysis.CSharp.Syntax.InternalSyntax.DirectiveStack directives, bool cloneRoot = true)
             {
                 Debug.Assert(root != null);
                 Debug.Assert(options != null);
