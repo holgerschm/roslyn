@@ -93,6 +93,7 @@ abstract Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.USharpSyntaxTree.GetR
 abstract Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.USharpSyntaxTree.Options.get -> Microsoft.CodeAnalysis.CSharp.CSharpParseOptions
 abstract Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.USharpSyntaxTree.TryGetRoot(out Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode root) -> bool
 abstract Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetRoot(System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode
+abstract Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.Options.get -> Microsoft.CodeAnalysis.CSharp.CSharpParseOptions
 abstract Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.TryGetRoot(out Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode root) -> bool
 override Microsoft.CodeAnalysis.CSharp.CSharpCompilation.ClassifyCommonConversion(Microsoft.CodeAnalysis.ITypeSymbol source, Microsoft.CodeAnalysis.ITypeSymbol destination) -> Microsoft.CodeAnalysis.Operations.CommonConversion
 override Microsoft.CodeAnalysis.CSharp.CSharpCompilation.ContainsSymbolsWithName(string name, Microsoft.CodeAnalysis.SymbolFilter filter = Microsoft.CodeAnalysis.SymbolFilter.TypeAndMember, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> bool
@@ -115,11 +116,30 @@ override Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.USharpSyntaxTree.IsEq
 override Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.USharpSyntaxTree.OptionsCore.get -> Microsoft.CodeAnalysis.ParseOptions
 override Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.USharpSyntaxTree.TryGetRootCore(out Microsoft.CodeAnalysis.SyntaxNode root) -> bool
 override Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.USharpSyntaxTree.WithChangedText(Microsoft.CodeAnalysis.Text.SourceText newText) -> Microsoft.CodeAnalysis.SyntaxTree
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetChangedSpans(Microsoft.CodeAnalysis.SyntaxTree oldTree) -> System.Collections.Generic.IList<Microsoft.CodeAnalysis.Text.TextSpan>
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetChanges(Microsoft.CodeAnalysis.SyntaxTree oldTree) -> System.Collections.Generic.IList<Microsoft.CodeAnalysis.Text.TextChange>
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetDiagnostics(Microsoft.CodeAnalysis.SyntaxNode node) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetDiagnostics(Microsoft.CodeAnalysis.SyntaxNodeOrToken nodeOrToken) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetDiagnostics(Microsoft.CodeAnalysis.SyntaxToken token) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetDiagnostics(Microsoft.CodeAnalysis.SyntaxTrivia trivia) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetDiagnostics(System.Threading.CancellationToken cancellationToken) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetLineSpan(Microsoft.CodeAnalysis.Text.TextSpan span, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.FileLinePositionSpan
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetLineVisibility(int position, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.LineVisibility
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetLocation(Microsoft.CodeAnalysis.Text.TextSpan span) -> Microsoft.CodeAnalysis.Location
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetMappedLineSpan(Microsoft.CodeAnalysis.Text.TextSpan span, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.FileLinePositionSpan
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetRootAsyncCore(System.Threading.CancellationToken cancellationToken) -> System.Threading.Tasks.Task<Microsoft.CodeAnalysis.SyntaxNode>
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetRootCore(System.Threading.CancellationToken cancellationToken) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.HasHiddenRegions() -> bool
 override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.IsEquivalentTo(Microsoft.CodeAnalysis.SyntaxTree tree, bool topLevel = false) -> bool
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.OptionsCore.get -> Microsoft.CodeAnalysis.ParseOptions
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.TryGetRootCore(out Microsoft.CodeAnalysis.SyntaxNode root) -> bool
+override Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.WithChangedText(Microsoft.CodeAnalysis.Text.SourceText newText) -> Microsoft.CodeAnalysis.SyntaxTree
 static Microsoft.CodeAnalysis.CSharp.LanguageVersionFacts.TryParse(string version, out Microsoft.CodeAnalysis.CSharp.LanguageVersion result) -> bool
 static Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.USharpSyntaxTree.Create(Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode root, Microsoft.CodeAnalysis.CSharp.CSharpParseOptions options = null, string path = "", System.Text.Encoding encoding = null) -> Microsoft.CodeAnalysis.SyntaxTree
 static Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.USharpSyntaxTree.ParseText(Microsoft.CodeAnalysis.Text.SourceText text, Microsoft.CodeAnalysis.CSharp.CSharpParseOptions options, string path, System.Threading.CancellationToken cancellationToken) -> Microsoft.CodeAnalysis.SyntaxTree
 static Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.USharpSyntaxTree.ParseText(string text, Microsoft.CodeAnalysis.CSharp.CSharpParseOptions options, string path, System.Text.Encoding encoding, System.Threading.CancellationToken cancellationToken) -> Microsoft.CodeAnalysis.SyntaxTree
 static Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.Create(Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode root, Microsoft.CodeAnalysis.CSharp.CSharpParseOptions options = null, string path = "", System.Text.Encoding encoding = null) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.ParseText(Microsoft.CodeAnalysis.Text.SourceText text, Microsoft.CodeAnalysis.CSharp.CSharpParseOptions options, string path, System.Threading.CancellationToken cancellationToken) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.ParseText(string text, Microsoft.CodeAnalysis.CSharp.CSharpParseOptions options, string path, System.Text.Encoding encoding, System.Threading.CancellationToken cancellationToken) -> Microsoft.CodeAnalysis.SyntaxTree
 virtual Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis.USharpSyntaxTree.GetRootAsync(System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task<Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode>
 virtual Microsoft.CodeAnalysis.USharp.USharpSyntaxTree.GetRootAsync(System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task<Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode>

@@ -40,7 +40,7 @@ namespace Microsoft.CodeAnalysis.USharp
                 {
                     get
                     {
-                        throw new NotSupportedException(CSharpWorkspaceResources.Cannot_retrieve_the_Span_of_a_null_syntax_reference);
+                        throw new NotSupportedException(USharpWorkspaceResources.Cannot_retrieve_the_Span_of_a_null_syntax_reference);
                     }
                 }
             }
