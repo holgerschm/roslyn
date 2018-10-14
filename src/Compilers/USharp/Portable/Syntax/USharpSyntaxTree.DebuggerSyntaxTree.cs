@@ -20,7 +20,7 @@ namespace Microsoft.CodeAnalysis.USharp
                     path: "",
                     options: CSharpParseOptions.Default,
                     root: root,
-                    directives: Syntax.InternalSyntax.DirectiveStack.Empty)
+                    directives: Microsoft.CodeAnalysis.CSharp.Syntax.InternalSyntax.DirectiveStack.Empty)
             {
             }
 

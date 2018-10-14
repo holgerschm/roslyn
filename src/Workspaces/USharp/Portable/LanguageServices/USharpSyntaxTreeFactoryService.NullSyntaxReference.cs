@@ -2,7 +2,7 @@
 using System.Threading;
 using Microsoft.CodeAnalysis.Text;
 
-namespace Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis
+namespace Microsoft.CodeAnalysis.USharp
 {
     internal partial class USharpSyntaxTreeFactoryServiceFactory
     {

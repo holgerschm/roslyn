@@ -9,7 +9,7 @@ using Microsoft.CodeAnalysis.Host.Mef;
 using Microsoft.CodeAnalysis.Text;
 using Roslyn.Utilities;
 
-namespace Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis
+namespace Microsoft.CodeAnalysis.USharp
 {
     [ExportLanguageServiceFactory(typeof(ISyntaxTreeFactoryService), LanguageNames.USharp), Shared]
     internal partial class USharpSyntaxTreeFactoryServiceFactory : ILanguageServiceFactory

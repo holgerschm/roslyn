@@ -10,7 +10,7 @@ using Microsoft.CodeAnalysis.Text;
 using Roslyn.Utilities;
 
 
-namespace Microsoft.CodeAnalysis.Editor.USharp.CodeAnalysis
+namespace Microsoft.CodeAnalysis.USharp
 {
     internal partial class USharpSyntaxTreeFactoryServiceFactory
     {
