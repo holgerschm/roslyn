@@ -40,13 +40,13 @@ namespace Microsoft.CodeAnalysis.USharp
             public override SyntaxTree CreateSyntaxTree(string fileName, ParseOptions options, Encoding encoding, SyntaxNode root)
             {
                 options = options ?? GetDefaultParseOptions();
-                return SyntaxFactory.SyntaxTree(root, options, fileName, encoding);
+                return USharpSyntaxTree.Create((CSharpSyntaxNode)root, (CSharpParseOptions)options, fileName, encoding);
             }
 
             public override SyntaxTree ParseSyntaxTree(string fileName, ParseOptions options, SourceText text, CancellationToken cancellationToken)
             {
                 options = options ?? GetDefaultParseOptions();
-                return SyntaxFactory.ParseSyntaxTree(text, options, fileName, cancellationToken: cancellationToken);
+                return USharpSyntaxTree.ParseText(text, (CSharpParseOptions)options, fileName, cancellationToken);
             }
 
             public override SyntaxNode DeserializeNodeFrom(Stream stream, CancellationToken cancellationToken)
